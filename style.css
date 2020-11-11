@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+}
+
+img {
+    width: 10%;
+    height: 20%;
+}
+
+.link {
+    font-size: 25px;
+    list-style: none;
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+
+.link:hover {
+    background-color: blue;
+    transform: scale(0.9);
+}
+
+#about {
+    background-color: yellow;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#hobby {
+    background-color: orange;
+}
+
+#work {
+    background-color: red;
+}
+
+#inspiration {
+
+    background-color: cyan;
+}
+
+#contact {
+    background-color: lime;
+}
